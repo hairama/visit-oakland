@@ -1,0 +1,98 @@
+/* Colors
+   #151C0D Eerie black   
+   #283618 pakistan green
+   #606C38 Dark moss green
+   #AFB388 Sage
+   #FEF9D7 Cornsilk
+   #DD9C2C Harvest gold
+   #563110 Seal brown
+*/
+
+body {
+    background-color: #151C0D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #151C0D;
+    margin: 0;
+    text-align: center;
+}
+
+/* HERO SECTION STYLING */
+.hero-section {
+    background-image: url("/images/lake-merritt.jpg");
+    background-size: cover;
+    flex-direction: column;
+}
+
+#hero-title {
+    background-color: #DD9C2C;
+    color: #283618;
+    border: 2px solid #563110;
+    border-radius: 8px;
+    padding: 2px 18px;
+    margin: 135px 0 0 0px;
+    text-shadow: 0 0 1px #151C0D;
+ }
+ 
+ #hero-tagline {
+    background-color: #1F2913;
+    color: #DD9C2C;
+    border: 2px solid #606C38;
+    border-radius: 7px;
+    padding: 6px 30px; 
+    margin: 11px 150px 100px 150px;
+    text-shadow: 0 0 2px #151C0D;
+ }
+
+/*ACTIVITIES SECTION STYLING*/
+.activities-section {
+    background-color: #AFB388;
+    padding: 5px 0 25px 0;
+    flex-direction: column;
+}
+
+.activity-collection {
+    margin-top: 10px;
+}
+
+.activity-item {
+    padding: 10px;
+    margin: 10px 15px;
+}
+
+/*GUIDE SECTION STYLING*/
+.guide-section {
+    background-color: #D7D6B0;
+    flex-direction: column;
+    padding: 50px 160px;
+}
+
+.guide-card {
+    background-color: #283618;
+    color: #FEF9D7;
+    width: 374px;
+    border-bottom: 8px solid #DD9C2C;
+    border-radius: 8px;
+    padding: 13px 20px;
+    justify-items: space-between;
+}
+
+/*UTILITY CLASSES & IMAGES*/
+.flex { 
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #283618;
+    border-radius: 50%;
+}
+
+#portrait {
+    height: 100%;
+    border-color: #DD9C2C;
+    border-radius: 30px;
+    margin: 5px;
+}
